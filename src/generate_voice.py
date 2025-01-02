@@ -6,12 +6,11 @@ import time
 from docx import Document
 import json
 from datetime import datetime
-from config import ALIYUN
+from config import ALIYUN, DOC_DIR, BASE_DIR
 
 # 配置路径
-BASE_DIR = Path("E:/dktPro/千问/springboot-qiniu-openai/otherproject/fenpian/doc")
-VOICE_DIR = BASE_DIR / "voice"
-LOG_FILE = BASE_DIR / "log.txt"
+VOICE_DIR = DOC_DIR / "voice"
+LOG_FILE = DOC_DIR / "log.txt"
 
 # 配置日志
 logging.basicConfig(
@@ -19,7 +18,7 @@ logging.basicConfig(
     format='%(asctime)s - %(levelname)s - %(message)s',
     handlers=[
         logging.StreamHandler(),
-        logging.FileHandler(BASE_DIR / 'generation.log', encoding='utf-8')
+        logging.FileHandler(DOC_DIR / 'generation.log', encoding='utf-8')
     ]
 )
 

@@ -1,8 +1,10 @@
 from pathlib import Path
 
 # 基础配置
-BASE_DIR = Path(__file__).parent.parent
-DOC_DIR = Path("E:/dktPro/千问\springboot-qiniu-openai/otherproject/fenpian/doc")
+BASE_DIR = Path(__file__).parent.parent  # 获取项目根目录
+DOC_DIR = BASE_DIR / "doc"  # 文档目录使用相对路径
+
+# 其他配置保持不变
 VECTOR_DIMENSION = 1024  # 智谱AI embedding维度
 
 # Milvus配置
