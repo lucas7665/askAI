@@ -1,0 +1,192 @@
+2025-01-02 11:19:07,838 - INFO - === 开始生成语音文件 ===
+2025-01-02 11:19:07,841 - INFO - 找到 1 个文档文件
+2025-01-02 11:19:07,842 - INFO - 
+[1/1] 处理文档: 医保报销比例（暂定）
+2025-01-02 11:19:07,877 - INFO - 成功读取文档内容，长度: 633 字符
+2025-01-02 11:19:07,879 - INFO - 开始生成语音，文本长度: 633 字符
+2025-01-02 11:19:07,880 - INFO - 文本已分段，共 2 段
+2025-01-02 11:19:07,882 - INFO - 处理第 1/2 段，长度: 464 字符
+2025-01-02 11:19:07,947 - ERROR - 第 1 段合成出错: can only concatenate str (not "NoneType") to str
+2025-01-02 11:19:07,950 - INFO - 处理第 2/2 段，长度: 164 字符
+2025-01-02 11:19:07,951 - ERROR - 第 2 段合成出错: can only concatenate str (not "NoneType") to str
+2025-01-02 11:19:07,952 - ERROR - [ERROR] 生成语音失败: 医保报销比例（暂定）
+2025-01-02 11:19:07,954 - INFO - 
+=== 所有文档处理完成 ===
+2025-01-02 11:20:08,830 - INFO - === 开始生成语音文件 ===
+2025-01-02 11:20:08,834 - INFO - 找到 1 个文档文件
+2025-01-02 11:20:08,835 - INFO - 
+[1/1] 处理文档: 医保报销比例（暂定）
+2025-01-02 11:20:08,853 - INFO - 成功读取文档内容，长度: 633 字符
+2025-01-02 11:20:08,855 - INFO - 开始生成语音，文本长度: 633 字符
+2025-01-02 11:20:08,856 - INFO - 文本已分段，共 2 段
+2025-01-02 11:20:08,857 - INFO - 处理第 1/2 段，长度: 464 字符
+2025-01-02 11:20:08,859 - ERROR - 第 1 段合成出错: SpeechSynthesizer.call() got an unexpected keyword argument 'model'
+2025-01-02 11:20:08,861 - ERROR - [ERROR] 生成语音失败: 医保报销比例（暂定）
+2025-01-02 11:20:08,863 - INFO - 
+=== 所有文档处理完成 ===
+2025-01-02 11:25:10,941 - INFO - === 开始生成语音文件 ===
+2025-01-02 11:25:10,944 - INFO - 找到 1 个文档文件
+2025-01-02 11:25:10,944 - INFO - 
+[1/1] 处理文档: 医保报销比例（暂定）
+2025-01-02 11:25:10,967 - INFO - 成功读取文档内容，长度: 633 字符
+2025-01-02 11:25:10,968 - INFO - 开始生成语音，文本长度: 633 字符
+2025-01-02 11:25:10,972 - INFO - 文本已分段，共 2 段
+2025-01-02 11:25:10,972 - INFO - 处理第 1/2 段，长度: 500 字符
+2025-01-02 11:25:11,252 - INFO - Websocket connected
+2025-01-02 11:25:39,639 - INFO - 第 1 段合成成功，数据长度: 2050134 字节
+2025-01-02 11:25:39,642 - INFO - 处理第 2/2 段，长度: 133 字符
+2025-01-02 11:25:39,865 - INFO - Websocket connected
+2025-01-02 11:25:39,937 - ERROR - 第 2 段合成出错: 未获取到音频数据
+2025-01-02 11:25:39,937 - ERROR - [ERROR] 生成语音失败: 医保报销比例（暂定）
+2025-01-02 11:25:39,941 - INFO - 
+=== 所有文档处理完成 ===
+2025-01-02 11:26:49,502 - INFO - === 开始生成语音文件 ===
+2025-01-02 11:26:49,505 - INFO - 找到 1 个文档文件
+2025-01-02 11:26:49,505 - INFO - 
+[1/1] 处理文档: 医保报销比例（暂定）
+2025-01-02 11:26:49,532 - INFO - 成功读取文档内容，长度: 633 字符
+2025-01-02 11:26:49,534 - INFO - 开始生成语音，文本长度: 633 字符
+2025-01-02 11:26:49,536 - INFO - 文本已分段，共 2 段
+2025-01-02 11:26:49,538 - INFO - 处理第 1/2 段，长度: 500 字符
+2025-01-02 11:26:49,538 - ERROR - 第 1 段合成出错: SpeechSynthesizer.call() got an unexpected keyword argument 'model'
+2025-01-02 11:26:49,540 - ERROR - [ERROR] 生成语音失败: 医保报销比例（暂定）
+2025-01-02 11:26:49,542 - INFO - 
+=== 所有文档处理完成 ===
+2025-01-02 11:26:56,041 - INFO - === 开始生成语音文件 ===
+2025-01-02 11:26:56,053 - INFO - 找到 1 个文档文件
+2025-01-02 11:26:56,053 - INFO - 
+[1/1] 处理文档: 医保报销比例（暂定）
+2025-01-02 11:26:56,072 - INFO - 成功读取文档内容，长度: 633 字符
+2025-01-02 11:26:56,074 - INFO - 开始生成语音，文本长度: 633 字符
+2025-01-02 11:26:56,076 - INFO - 文本已分段，共 2 段
+2025-01-02 11:26:56,076 - INFO - 处理第 1/2 段，长度: 500 字符
+2025-01-02 11:26:56,077 - ERROR - 第 1 段合成出错: SpeechSynthesizer.call() got an unexpected keyword argument 'model'
+2025-01-02 11:26:56,079 - ERROR - [ERROR] 生成语音失败: 医保报销比例（暂定）
+2025-01-02 11:26:56,081 - INFO - 
+=== 所有文档处理完成 ===
+2025-01-02 11:28:27,554 - INFO - === 开始生成语音文件 ===
+2025-01-02 11:28:27,557 - INFO - 找到 1 个文档文件
+2025-01-02 11:28:27,557 - INFO - 
+[1/1] 处理文档: 医保报销比例（暂定）
+2025-01-02 11:28:27,579 - INFO - 成功读取文档内容，长度: 633 字符
+2025-01-02 11:28:27,580 - INFO - 开始生成语音，文本长度: 633 字符
+2025-01-02 11:28:27,581 - INFO - 文本已分段，共 1 段
+2025-01-02 11:28:27,581 - INFO - 处理第 1/1 段，长度: 633 字符
+2025-01-02 11:28:27,582 - ERROR - 第 1 段合成出错: SpeechSynthesizer.__init__() got an unexpected keyword argument 'sample_rate'
+2025-01-02 11:28:27,583 - ERROR - [ERROR] 生成语音失败: 医保报销比例（暂定）
+2025-01-02 11:28:27,586 - INFO - 
+=== 所有文档处理完成 ===
+2025-01-02 11:29:56,354 - INFO - === 开始生成语音文件 ===
+2025-01-02 11:29:56,369 - INFO - 找到 1 个文档文件
+2025-01-02 11:29:56,369 - INFO - 
+[1/1] 处理文档: 医保报销比例（暂定）
+2025-01-02 11:29:56,394 - INFO - 成功读取文档内容，长度: 633 字符
+2025-01-02 11:29:56,395 - INFO - 开始生成语音，文本长度: 633 字符
+2025-01-02 11:29:56,396 - INFO - 文本已分段，共 1 段
+2025-01-02 11:29:56,396 - INFO - 处理第 1/1 段，长度: 633 字符
+2025-01-02 11:29:56,728 - INFO - Websocket connected
+2025-01-02 11:30:33,764 - INFO - 第 1 段合成成功，数据长度: 2612707 字节
+2025-01-02 11:30:33,769 - INFO - 语音文件生成成功: E:\dktPro\千问\springboot-qiniu-openai\otherproject\fenpian\doc\voice\医保报销比例（暂定）.mp3，总大小: 2612707 字节
+2025-01-02 11:30:33,770 - INFO - [OK] 成功生成语音: 医保报销比例（暂定）
+2025-01-02 11:30:33,774 - INFO - 
+=== 所有文档处理完成 ===
+2025-01-02 13:47:23,448 - INFO - === 开始生成语音文件 ===
+2025-01-02 13:47:23,450 - INFO - 找到 1 个文档文件
+2025-01-02 13:47:23,450 - INFO - [1/1] 跳过已处理的文件: 医保报销比例（暂定）
+2025-01-02 13:47:23,450 - INFO - 
+=== 所有文档处理完成 ===
+2025-01-02 13:47:46,909 - INFO - === 开始生成语音文件 ===
+2025-01-02 13:47:46,911 - INFO - 找到 1 个文档文件
+2025-01-02 13:47:46,911 - INFO - 
+[1/1] 处理文档: 医保报销比例（暂定）
+2025-01-02 13:47:46,961 - INFO - 成功读取文档内容，长度: 633 字符
+2025-01-02 13:47:46,961 - INFO - 开始生成语音，文本长度: 633 字符
+2025-01-02 13:47:46,962 - INFO - 文本已分段，共 1 段
+2025-01-02 13:47:46,963 - INFO - 处理第 1/1 段，长度: 633 字符
+2025-01-02 13:47:47,252 - INFO - Websocket connected
+2025-01-02 13:47:47,344 - ERROR - TaskFailed: {"header":{"task_id":"392af54c8a3744719819aa063c6aa984","event":"task-failed","error_code":"Arrearage","error_message":"Access denied, please make sure your account is in good standing.","attributes":{}},"payload":{}}
+2025-01-02 13:47:47,344 - ERROR - error from callback <bound method SpeechSynthesizer.on_message of <dashscope.audio.tts_v2.speech_synthesizer.SpeechSynthesizer object at 0x000002249AB244A0>>: TaskFailed: {"header":{"task_id":"392af54c8a3744719819aa063c6aa984","event":"task-failed","error_code":"Arrearage","error_message":"Access denied, please make sure your account is in good standing.","attributes":{}},"payload":{}}
+2025-01-02 13:47:47,345 - ERROR - close status: 1007
+2025-01-02 13:47:47,347 - ERROR - error from callback <bound method SpeechSynthesizer.on_error of <dashscope.audio.tts_v2.speech_synthesizer.SpeechSynthesizer object at 0x000002249AB244A0>>: websocket closed due to websocket closed due to TaskFailed: {"header":{"task_id":"392af54c8a3744719819aa063c6aa984","event":"task-failed","error_code":"Arrearage","error_message":"Access denied, please make sure your account is in good standing.","attributes":{}},"payload":{}}
+2025-01-02 13:47:47,347 - ERROR - 第 1 段合成出错: 未获取到音频数据
+2025-01-02 13:47:47,350 - ERROR - [ERROR] 生成语音失败: 医保报销比例（暂定）
+2025-01-02 13:47:47,351 - INFO - tearing down on exception websocket closed due to websocket closed due to websocket closed due to TaskFailed: {"header":{"task_id":"392af54c8a3744719819aa063c6aa984","event":"task-failed","error_code":"Arrearage","error_message":"Access denied, please make sure your account is in good standing.","attributes":{}},"payload":{}}
+2025-01-02 13:47:47,356 - INFO - 
+=== 所有文档处理完成 ===
+2025-01-02 13:48:57,364 - INFO - === 开始生成语音文件 ===
+2025-01-02 13:48:57,365 - INFO - 找到 1 个文档文件
+2025-01-02 13:48:57,365 - INFO - 
+[1/1] 处理文档: 社会保险经办条例
+2025-01-02 13:48:57,420 - INFO - 成功读取文档内容，长度: 6729 字符
+2025-01-02 13:48:57,421 - INFO - 开始生成语音，文本长度: 6729 字符
+2025-01-02 13:48:57,421 - INFO - 文本已分段，共 4 段
+2025-01-02 13:48:57,423 - INFO - 处理第 1/4 段，长度: 2000 字符
+2025-01-02 13:48:57,697 - INFO - Websocket connected
+2025-01-02 13:48:57,781 - ERROR - TaskFailed: {"header":{"task_id":"e461ed17e7de43c6b74e1929e7a1160f","event":"task-failed","error_code":"Arrearage","error_message":"Access denied, please make sure your account is in good standing.","attributes":{}},"payload":{}}
+2025-01-02 13:48:57,783 - ERROR - error from callback <bound method SpeechSynthesizer.on_message of <dashscope.audio.tts_v2.speech_synthesizer.SpeechSynthesizer object at 0x000001FD586B7590>>: TaskFailed: {"header":{"task_id":"e461ed17e7de43c6b74e1929e7a1160f","event":"task-failed","error_code":"Arrearage","error_message":"Access denied, please make sure your account is in good standing.","attributes":{}},"payload":{}}
+2025-01-02 13:48:57,786 - ERROR - close status: 1007
+2025-01-02 13:48:57,787 - ERROR - error from callback <bound method SpeechSynthesizer.on_error of <dashscope.audio.tts_v2.speech_synthesizer.SpeechSynthesizer object at 0x000001FD586B7590>>: websocket closed due to websocket closed due to TaskFailed: {"header":{"task_id":"e461ed17e7de43c6b74e1929e7a1160f","event":"task-failed","error_code":"Arrearage","error_message":"Access denied, please make sure your account is in good standing.","attributes":{}},"payload":{}}
+2025-01-02 13:48:57,787 - ERROR - 第 1 段合成出错: 未获取到音频数据
+2025-01-02 13:48:57,789 - ERROR - [ERROR] 生成语音失败: 社会保险经办条例
+2025-01-02 13:48:57,789 - INFO - tearing down on exception websocket closed due to websocket closed due to websocket closed due to TaskFailed: {"header":{"task_id":"e461ed17e7de43c6b74e1929e7a1160f","event":"task-failed","error_code":"Arrearage","error_message":"Access denied, please make sure your account is in good standing.","attributes":{}},"payload":{}}
+2025-01-02 13:48:57,795 - INFO - 
+=== 所有文档处理完成 ===
+2025-01-02 13:51:28,033 - INFO - === 开始生成语音文件 ===
+2025-01-02 13:51:28,037 - INFO - 找到 1 个文档文件
+2025-01-02 13:51:28,043 - INFO - 
+[1/1] 处理文档: 社会保险经办条例
+2025-01-02 13:51:28,151 - INFO - 成功读取文档内容，长度: 6729 字符
+2025-01-02 13:51:28,177 - INFO - 开始生成语音，文本长度: 6729 字符
+2025-01-02 13:51:28,223 - INFO - 文本已分段，共 4 段
+2025-01-02 13:51:28,238 - INFO - 处理第 1/4 段，长度: 2000 字符
+2025-01-02 13:51:29,029 - INFO - Websocket connected
+2025-01-02 13:51:29,102 - ERROR - TaskFailed: {"header":{"task_id":"61ad1d15d1c34d84ad1877403e403592","event":"task-failed","error_code":"Arrearage","error_message":"Access denied, please make sure your account is in good standing.","attributes":{}},"payload":{}}
+2025-01-02 13:51:29,104 - ERROR - error from callback <bound method SpeechSynthesizer.on_message of <dashscope.audio.tts_v2.speech_synthesizer.SpeechSynthesizer object at 0x00000286322857F0>>: TaskFailed: {"header":{"task_id":"61ad1d15d1c34d84ad1877403e403592","event":"task-failed","error_code":"Arrearage","error_message":"Access denied, please make sure your account is in good standing.","attributes":{}},"payload":{}}
+2025-01-02 13:51:29,105 - ERROR - close status: 1007
+2025-01-02 13:51:29,107 - ERROR - 第 1 段合成出错: 未获取到音频数据
+2025-01-02 13:51:29,108 - ERROR - error from callback <bound method SpeechSynthesizer.on_error of <dashscope.audio.tts_v2.speech_synthesizer.SpeechSynthesizer object at 0x00000286322857F0>>: websocket closed due to websocket closed due to TaskFailed: {"header":{"task_id":"61ad1d15d1c34d84ad1877403e403592","event":"task-failed","error_code":"Arrearage","error_message":"Access denied, please make sure your account is in good standing.","attributes":{}},"payload":{}}
+2025-01-02 13:51:29,113 - ERROR - [ERROR] 生成语音失败: 社会保险经办条例
+2025-01-02 13:51:29,117 - INFO - tearing down on exception websocket closed due to websocket closed due to websocket closed due to TaskFailed: {"header":{"task_id":"61ad1d15d1c34d84ad1877403e403592","event":"task-failed","error_code":"Arrearage","error_message":"Access denied, please make sure your account is in good standing.","attributes":{}},"payload":{}}
+2025-01-02 13:51:29,125 - INFO - 
+=== 所有文档处理完成 ===
+2025-01-02 13:51:35,954 - INFO - === 开始生成语音文件 ===
+2025-01-02 13:51:35,963 - INFO - 找到 1 个文档文件
+2025-01-02 13:51:35,967 - INFO - 
+[1/1] 处理文档: 社会保险经办条例
+2025-01-02 13:51:36,107 - INFO - 成功读取文档内容，长度: 6729 字符
+2025-01-02 13:51:36,107 - INFO - 开始生成语音，文本长度: 6729 字符
+2025-01-02 13:51:36,108 - INFO - 文本已分段，共 4 段
+2025-01-02 13:51:36,109 - INFO - 处理第 1/4 段，长度: 2000 字符
+2025-01-02 13:51:36,427 - INFO - Websocket connected
+2025-01-02 13:51:36,511 - ERROR - TaskFailed: {"header":{"task_id":"2010830630a84bdbbf8fe946d8690ce4","event":"task-failed","error_code":"Arrearage","error_message":"Access denied, please make sure your account is in good standing.","attributes":{}},"payload":{}}
+2025-01-02 13:51:36,514 - ERROR - error from callback <bound method SpeechSynthesizer.on_message of <dashscope.audio.tts_v2.speech_synthesizer.SpeechSynthesizer object at 0x00000240629457F0>>: TaskFailed: {"header":{"task_id":"2010830630a84bdbbf8fe946d8690ce4","event":"task-failed","error_code":"Arrearage","error_message":"Access denied, please make sure your account is in good standing.","attributes":{}},"payload":{}}
+2025-01-02 13:51:36,516 - ERROR - error from callback <bound method SpeechSynthesizer.on_error of <dashscope.audio.tts_v2.speech_synthesizer.SpeechSynthesizer object at 0x00000240629457F0>>: websocket closed due to websocket closed due to TaskFailed: {"header":{"task_id":"2010830630a84bdbbf8fe946d8690ce4","event":"task-failed","error_code":"Arrearage","error_message":"Access denied, please make sure your account is in good standing.","attributes":{}},"payload":{}}
+2025-01-02 13:51:36,518 - INFO - tearing down on exception websocket closed due to websocket closed due to websocket closed due to TaskFailed: {"header":{"task_id":"2010830630a84bdbbf8fe946d8690ce4","event":"task-failed","error_code":"Arrearage","error_message":"Access denied, please make sure your account is in good standing.","attributes":{}},"payload":{}}
+2025-01-02 13:51:36,513 - ERROR - close status: 1007
+2025-01-02 13:51:36,529 - ERROR - 第 1 段合成出错: 未获取到音频数据
+2025-01-02 13:51:36,536 - ERROR - [ERROR] 生成语音失败: 社会保险经办条例
+2025-01-02 13:51:36,540 - INFO - 
+=== 所有文档处理完成 ===
+2025-01-02 13:52:08,452 - INFO - === 开始生成语音文件 ===
+2025-01-02 13:52:08,458 - INFO - 找到 1 个文档文件
+2025-01-02 13:52:08,461 - INFO - 
+[1/1] 处理文档: 社会保险经办条例
+2025-01-02 13:52:08,541 - INFO - 成功读取文档内容，长度: 6729 字符
+2025-01-02 13:52:08,541 - INFO - 开始生成语音，文本长度: 6729 字符
+2025-01-02 13:52:08,541 - INFO - 文本已分段，共 4 段
+2025-01-02 13:52:08,541 - INFO - 处理第 1/4 段，长度: 2000 字符
+2025-01-02 13:52:08,886 - INFO - Websocket connected
+2025-01-02 13:53:53,651 - INFO - 第 1 段合成成功，数据长度: 8011486 字节
+2025-01-02 13:53:53,651 - INFO - 处理第 2/4 段，长度: 2000 字符
+2025-01-02 13:53:53,907 - INFO - Websocket connected
+2025-01-02 13:55:44,494 - INFO - 第 2 段合成成功，数据长度: 7961749 字节
+2025-01-02 13:55:44,501 - INFO - 处理第 3/4 段，长度: 2000 字符
+2025-01-02 13:55:44,717 - INFO - Websocket connected
+2025-01-02 13:57:32,370 - INFO - 第 3 段合成成功，数据长度: 7987662 字节
+2025-01-02 13:57:32,371 - INFO - 处理第 4/4 段，长度: 729 字符
+2025-01-02 13:57:32,585 - INFO - Websocket connected
+2025-01-02 13:58:10,346 - INFO - 第 4 段合成成功，数据长度: 2909040 字节
+2025-01-02 13:58:10,380 - INFO - 语音文件生成成功: E:\dktPro\千问\springboot-qiniu-openai\otherproject\fenpian\doc\voice\社会保险经办条例.mp3，总大小: 26869937 字节
+2025-01-02 13:58:10,388 - INFO - [OK] 成功生成语音: 社会保险经办条例
+2025-01-02 13:58:10,396 - INFO - 
+=== 所有文档处理完成 ===
