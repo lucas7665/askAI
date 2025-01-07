@@ -54,7 +54,7 @@ class QuestionResponse(BaseModel):
 qa_system = None
 
 # 设置静态文件目录
-VOICE_DIR = Path("E:/dktPro/千问/springboot-qiniu-openai/otherproject/fenpian/doc/voice")
+VOICE_DIR = Path("E:/dktPro/qianwen/springboot-qiniu-openai/otherproject/fenpian/doc/voice")
 app.mount("/voice", StaticFiles(directory=str(VOICE_DIR)), name="voice")
 
 @app.on_event("startup")
