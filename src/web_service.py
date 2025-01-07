@@ -4,7 +4,7 @@ from fastapi.templating import Jinja2Templates
 from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel
 from qa_system import QASystem
-from config import DIGITAL_HUMAN, DOC_DIR  # 导入 DOC_DIR
+from config import DIGITAL_HUMAN, DOC_DIR, NURSING_DOC_DIR, NURSING_VOICE_DIR, NURSING_DIGITAL_HUMAN  # 导入 DOC_DIR
 import logging
 import uvicorn
 from typing import List, Optional
@@ -56,6 +56,9 @@ qa_system = None
 # 设置静态文件目录
 VOICE_DIR = Path("E:/dktPro/qianwen/springboot-qiniu-openai/otherproject/fenpian/doc/voice")
 app.mount("/voice", StaticFiles(directory=str(VOICE_DIR)), name="voice")
+
+# 设置护理语音文件目录
+app.mount("/nursing_voice", StaticFiles(directory=str(NURSING_VOICE_DIR)), name="nursing_voice")
 
 @app.on_event("startup")
 async def startup_event():
@@ -165,6 +168,64 @@ async def get_document(doc_id: str):
     except Exception as e:
         logging.error(f"获取文档内容失败: {str(e)}")
         raise HTTPException(status_code=500, detail="获取文档内容失败")
+
+@app.get("/nursing", response_class=HTMLResponse)
+async def nursing_home(request: Request):
+    """返回护理页面"""
+    return templates.TemplateResponse(
+        "nursing.html", 
+        {
+            "request": request,
+            "DIGITAL_HUMAN": NURSING_DIGITAL_HUMAN  # 使用护理数字人配置
+        }
+    )
+
+@app.get("/nursing/documents")
+async def get_nursing_documents():
+    """获取护理文档列表"""
+    try:
+        documents = []
+        # 确保护理文档目录存在
+        if not NURSING_DOC_DIR.exists():
+            logging.warning(f"护理文档目录不存在: {NURSING_DOC_DIR}")
+            return documents
+            
+        for file_name in os.listdir(NURSING_DOC_DIR):
+            if file_name.endswith('.docx'):
+                doc_id = file_name.replace('.docx', '')
+                documents.append({
+                    'id': doc_id,
+                    'name': file_name
+                })
+        logging.info(f"找到 {len(documents)} 个护理文档")
+        return documents
+    except Exception as e:
+        logging.error(f"获取护理文档列表失败: {str(e)}")
+        raise HTTPException(status_code=500, detail="获取护理文档列表失败")
+
+@app.get("/nursing/document/{doc_id}")
+async def get_nursing_document(doc_id: str):
+    """获取护理文档内容"""
+    try:
+        file_name = f"{doc_id}.docx"
+        file_path = NURSING_DOC_DIR / file_name
+        
+        if not file_path.exists():
+            raise HTTPException(status_code=404, detail="护理文档不存在")
+            
+        doc = Document(str(file_path))
+        content = "\n".join([para.text for para in doc.paragraphs if para.text.strip()])
+        
+        return {
+            "id": doc_id,
+            "name": file_name,
+            "content": content
+        }
+    except HTTPException:
+        raise
+    except Exception as e:
+        logging.error(f"获取护理文档内容失败: {str(e)}")
+        raise HTTPException(status_code=500, detail="获取护理文档内容失败")
 
 if __name__ == '__main__':
     uvicorn.run(app, host="0.0.0.0", port=8000, reload=True) 

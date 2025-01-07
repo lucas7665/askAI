@@ -67,3 +67,15 @@ ALIYUN = {
     "RETRY_TIMES": 1,  # 重试次数
     "RETRY_DELAY": 1  # 重试间隔(秒)
 }
+
+# 护理系统配置
+NURSING_DOC_DIR = Path("E:/dktPro/qianwen/askAI/nursing_doc")  # 护理文档目录
+NURSING_VOICE_DIR = NURSING_DOC_DIR / "voice"  # 护理语音目录
+
+# 护理数字人配置
+NURSING_DIGITAL_HUMAN = {
+    "name": "护理助手",
+    "role": "护理专家",
+    "personality": "专业、友善、耐心",
+    "greeting": "您好，我是护理助手。我可以为您解答护理相关问题。请问有什么可以帮您？"
+}
